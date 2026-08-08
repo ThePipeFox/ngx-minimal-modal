@@ -7,6 +7,9 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "ngx-minimal-modal": ["./dist/ngx-minimal-modal"]
+    },
     "skipLibCheck": true,
     "isolatedModules": true,
     "experimentalDecorators": true,
@@ -19,5 +22,19 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/ngx-minimal-modal/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ngx-minimal-modal/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/modal-test/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/modal-test/tsconfig.spec.json"
+    }
+  ]
 }

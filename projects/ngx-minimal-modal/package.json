@@ -1,0 +1,25 @@
+{
+  "name": "ngx-minimal-modal",
+  "version": "1.0.0",
+  "description": "A tiny, unopinionated library for working with modals.",
+  "keywords": [
+    "angular",
+    "modal",
+    "signals",
+    "minimal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThePipeFox/ngx-minimal-modal"
+  },
+  "license": "MIT",
+  "author": "Miloš Pešić aka ThePipeFox",
+  "peerDependencies": {
+    "@angular/common": "^22.1.0",
+    "@angular/core": "^22.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
